@@ -96,13 +96,3 @@ az deployment group create -g docintel-rg -f infra/main.bicep \
 Log Analytics, App Insights, and the Container Apps environment + app, wiring the
 service to all four Azure backends. Or push to `main` and let the `cd` workflow
 build + deploy (set the `AZURE_*` and `ACR_NAME` secrets first).
-
-## What's verified here vs your step
-
-Verified locally: chunking, retrieval and the retrieval evaluation, the
-extractive answerer with citations, the feedback store, the FastAPI service, the
-Blob document store against **Azurite**, the unit tests, and `bicep build` of the
-infrastructure. The Azure AI Search, Azure OpenAI, and Cosmos data-plane paths
-are real SDK code selected by config and provisioned by the Bicep; running them
-live needs those Azure resources, which is the one step that requires your
-subscription.

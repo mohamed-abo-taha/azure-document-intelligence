@@ -1,0 +1,10 @@
+[
+  {"query": "How does Azure Container Apps handle scaling when there is no traffic?", "doc_id": "azure_container_apps"},
+  {"query": "What is KEDA used for in Container Apps?", "doc_id": "azure_container_apps"},
+  {"query": "How does Azure AI Search find documents by meaning instead of keywords?", "doc_id": "azure_ai_search"},
+  {"query": "What nearest neighbor algorithm does vector search use?", "doc_id": "azure_ai_search"},
+  {"query": "Why is accuracy a poor metric for fraud detection?", "doc_id": "fraud_detection"},
+  {"query": "How should you choose a decision threshold for fraud?", "doc_id": "fraud_detection"},
+  {"query": "What does self-attention do in a transformer?", "doc_id": "transformers_nlp"},
+  {"query": "How are words turned into vectors before a transformer runs?", "doc_id": "transformers_nlp"}
+]
